@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+--CSS--
+
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -47,6 +50,12 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
+
+--CSS--
+
+
+--HTML--
+
 </head>
 <body>
 
@@ -62,6 +71,10 @@ body {
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation</span>
 
+--HTML--
+
+--JS--
+
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "200px";
@@ -71,6 +84,8 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
+--JS--
 
 </body>
 </html>          
