@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en-gb">
+
+<head>
+
+<script>
+function openNav() {
+  document.getElementById("myTopnav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("myTopnav").style.width = "0px";
+}
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a site set up as part of a university project to help dummies learn about
+    computers." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ICUP</title>
+
+    <link rel="shortcut icon" type="image/png" href="Images/ICUP_Logo2.png">
+    <link rel="stylesheet" href="layout.css" />
+
+</head>
+
+<body style="background-color: #edd4b9">
+
+<main>
+
+    <header class="page-header">
+
+        <div>
+
+            <div class="headerbox">
+                <h1> Internet, Computers, Users and Peripherals</h1>
+                <hr class="headingline">
+                <p>"A dummies guide to all things IT"</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Navigation</span>
+
+    <div id="myTopnav" class="topnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Enterprise Computing</a>
+        <a href="#">Data Science</a>
+        <a href="#">Computer Applications</a>
+      </div>
+      
+    <section id="comingsoon">
+
+      <div class="site-description">
+          <h2 class="site-description">
+              <u>Coming Soon</u>
+          </h2>
+
+          <p class="site-description">
+              This will be a section that will outline purpose of this website and what this website includes
+          </p>
+
+      </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>Run and managed by "ICUP®" team</p>
+
+    </footer>
+
+</main>
+
+</body>
+
+</html>
