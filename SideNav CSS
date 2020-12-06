@@ -1,0 +1,95 @@
+
+.topnav {
+    height: 125%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #042a54;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  
+  .topnav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .topnav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .topnav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+header {
+    box-shadow: black 4px 4px 8px;
+    margin-bottom: 0;
+    width: 98.8%;
+    padding: 11.5px;
+    background-color: #042A54;
+    text-align: center;
+    color: white;
+    background: url("https://media2.giphy.com/media/f9k1tV7HyORcngKF8v/giphy.gif") center;
+}
+
+.headerbox{
+    color: white;
+    text-align: center;
+    background-color: #042A54;
+    padding: 1%;
+    margin-right: 40%;
+    margin-left: 40%;
+    border: black 2px solid;
+}
+
+.headingline{
+    margin-bottom: 5px;
+    width: 90%;
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, grey , white, grey);
+}
+
+#comingsoon{
+    box-shadow: black 4px 4px 8px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: black 2px solid;
+    background-color: white;
+    padding: 10px;
+}
+
+.site-description{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    background-color: #042A54;
+    box-shadow: black 4px 4px 8px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    bottom: 10px;
+    width: 98%;
+    position: fixed;
+}
